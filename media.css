@@ -1,0 +1,44 @@
+@media (max-width: 960px) {
+  .game {
+    justify-content: start;
+  }
+
+  .timer__wrap {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .game {
+    grid-template-columns: repeat(4, 130px);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .game {
+    justify-content: center;
+    grid-template-columns: repeat(2, 100px);
+    grid-auto-rows: 130px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .game {
+    justify-content: start;
+  }
+
+  .timer {
+    right: 40px;
+  }
+  .timer__wrap {
+    padding: 15px 5px;
+    border-radius: 15px;
+  }
+}
